@@ -43,7 +43,7 @@ git pull
 Next, while you are in the `iwbp` folder, you need to copy the starter files for the assessment from the `iwbp` folder into your `page-structure-assessment` folder by running the following command:
 
 ```
-cp page-structure/* ../page-structure-assessment
+cp -r page-structure/* ../page-structure-assessment
 ```
 
 Now navigate to the `page-structure-assessment` folder using the following command:
